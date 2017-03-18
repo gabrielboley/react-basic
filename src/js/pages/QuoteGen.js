@@ -39,7 +39,7 @@ export default class QuoteGen extends Component {
     generateRandomNumber = () => {
         // Get the number of quotes available
         // minus 1 because arrays start with index 0
-        const numberOfQuotes = dbzQuotes.length - 1;
+        const numberOfQuotes = dbzQuotes.length;
         // generate a random number within range of of total quotes
         const newIndex = Math.floor(Math.random() * numberOfQuotes);
         // if the newIndex is the same as our currently displayed one then start over
