@@ -1,0 +1,11 @@
+.current-count {
+  font-size: 72px;
+  text-align: center;
+}
+.current-count.negative {
+  color: #fe5f61;
+}
+.counter-title {
+  padding-bottom: 20px;
+  text-align: center;
+}
